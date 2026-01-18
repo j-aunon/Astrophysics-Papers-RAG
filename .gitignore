@@ -1,0 +1,22 @@
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.python-version
+.env
+.DS_Store
+config.yaml
+
+# Local runtime artifacts
+data/
+logs/
+outputs/
+
+# Model caches (optional)
+hf_cache/
+models/
+
+# Papers PDF
+documents/

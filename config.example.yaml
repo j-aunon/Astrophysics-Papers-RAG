@@ -1,0 +1,22 @@
+language:
+  output_language: "en"
+
+paths:
+  data_dir: "data"
+  sqlite_path: "data/metadata.sqlite3"
+  chroma_dir: "data/chroma"
+  pages_dir: "data/pages"
+  figures_dir: "data/figures"
+  colpali_dir: "data/colpali"
+  logs_dir: "logs"
+
+ingestion:
+  render_dpi: 200
+  max_pages: null
+
+models:
+  text_embedding_model: "BAAI/bge-m3"
+  llm_model: "Qwen/Qwen2.5-7B-Instruct"
+  vlm_model: "Qwen/Qwen3-VL"
+  device: "auto"      # "auto" | "cpu" | "cuda"
+  dtype: "auto"       # "auto" | "float16" | "bfloat16" | "float32"
